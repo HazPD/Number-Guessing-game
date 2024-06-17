@@ -20,9 +20,9 @@ while play:
     while play == True:
 
                 UserGuess = int(input("Guess the number between 1 and " + str(max) + ": "))
-                lives = lives + 1 #Increment                        #Increment on Lives for every guess
+                lives = lives + 1                                   #Increment on Lives for every guess
 
-                if lives == 5:                                      #Game ends if guess is more than 5
+                if lives == 5:                                      #Game ends on 5 wrong guess
                     print("You ran out of lives")
                     play = False
                     break
@@ -41,7 +41,7 @@ while play:
     again = int(input("Would you like to play again? 1 for yes, 2 for no: "))  
 
     if again == 1:                
-        play = True
+        play = True #executes the loop to play again
                
     elif again == 2:
         print("Thank you for playing")
