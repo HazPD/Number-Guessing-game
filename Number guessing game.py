@@ -14,7 +14,7 @@ while play:
 
     max = int(input("What's the highest number you want for your range? "))
     Num = random.randint(1,max) #Draw random numbers from 1 to Max number
-    print(Num) 
+    print(Num) #Testing purposes - CHEAT - DON'T FORGET TO REMOVE
     #loop for actual guessing
 
     while play == True:
